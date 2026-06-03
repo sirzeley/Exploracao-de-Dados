@@ -51,3 +51,14 @@ xml_content = """<?xml version="1.0" encoding="UTF-8"?>
 # Salvar para simular arquivo XML
 with open('clientes.xml', 'w', encoding='utf-8') as f:
     f.write(xml_content)
+
+
+    #DESAFIOSS!!
+import pandas as pd
+
+dados_estoque = {
+    "Produto": ["Placa Mãe", "Processador", "Memória RAM", "Monitor", "Teclado"],
+    "Moeda": ["USD", "USD", "EUR", "EUR", "USD"],
+    "Preco_Original": [150.00, 250.00, 80.00, 200.00, 45.00]
+}
+df_estoque = pd.DataFrame(dados_estoque)
