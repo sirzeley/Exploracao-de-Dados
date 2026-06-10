@@ -22,5 +22,5 @@
 from datetime import datetime, timedelta
 
 data_90_dias_atras = datetime.now() - timedelta(90)
-print(f'Data atual:    {datetime.now().strftime("%d/%m/%Y")}')
-print(f'90 dias atrás: {data_90_dias_atras.strftime("%d/%m/%Y")}')
+print(f'Data atual:    {datetime.now()}')
+print(f'90 dias atrás: {data_90_dias_atras.strftime("%d/%B/%y")}')
