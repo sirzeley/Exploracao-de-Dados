@@ -1,0 +1,8 @@
+id,cliente,data_abertura,status,prioridade
+1,Empresa A,2026-05-01,aberto,alta
+2,Empresa B,2026-05-20,resolvido,baixa
+3,Empresa C,2026-05-25,aberto,media
+4,Empresa D,2026-05-10,aberto,alta
+5,Empresa E,2026-04-28,aberto,baixa
+6,Empresa F,2026-04-15,resolvido,media
+7,Empresa G,2026-05-27,aberto,alta
