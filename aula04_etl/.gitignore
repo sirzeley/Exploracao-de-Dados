@@ -1,0 +1,13 @@
+# Credenciais — NUNCA subir para o GitHub
+.env
+
+# CSVs gerados durante a aula (opcionais, geralmente não precisam ir pro repo)
+*.csv
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode
+.vscode/
